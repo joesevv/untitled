@@ -104,6 +104,11 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
+            const Icon(
+              Icons.ac_unit,
+              size: 96.0,
+              color: Colors.lightBlue,
+            ),
             const Text('Joseph has pushed the button this many times:'),
             Text(
               '$_counter',
